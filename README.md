@@ -10,7 +10,14 @@ REDIS_HOST = os.getenv('REDIS_HOST')
 ```
 
 ## 使用
+
+```
+
  docker-compose --project-name app-test-1 -f docker-compose.yml up
+
+ ```
 
 ## 参考
 https://hackernoon.com/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091
+https://docs.docker.com/compose/overview/
+https://docs.docker.com/engine/reference/builder/
